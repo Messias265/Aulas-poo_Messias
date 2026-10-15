@@ -1,3 +1,14 @@
+<?php
+// Importanto a classe
+require_once "src/Filme.php";
+
+// Criando um OBJETO ou uma INSTÂNCIA
+$filme1 = new Filme();
+
+echo "<pre>";
+var_dump($filme1);
+echo "</pre>"
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
