@@ -3,3 +3,7 @@
 Neste repositório utilizaremos o PHP com **Programação Orientada a Objetos**.
 
 Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de branches no GitHub. 
+
+---
+
+## Branch 01: Classes, Objetos, Propriedades e Métodos
