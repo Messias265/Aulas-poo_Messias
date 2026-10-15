@@ -10,8 +10,10 @@ class Filme
     public string $direcao;
 
     // Métodos: comportamentos (funções)
-    public function ehClassico()
+    public function ehClassico(): bool
     {
-
+        // É clássico SE ano for menor que 2000
+        // detalhe, condicional que n use if
+        return $this->ano < 2000;
     }
 }
