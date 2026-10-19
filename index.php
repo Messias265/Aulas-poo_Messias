@@ -7,7 +7,8 @@ $filme1 = new Filme('De Volta para o Futuro', 'Ficção', 1985);
 $filme2 = new Filme('Toy Story', 'Animação', '1995');
 $filme3 = new Filme('Homem Aranha', 'Ação', 2026);
 
-
+$filme3->setAno(0);
+echo $filme3->getAno();
 // echo "<pre>";
 // var_dump($filme1, $filme2, $filme3);
 // echo "</pre>"
