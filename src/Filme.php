@@ -8,6 +8,14 @@ class Filme
     private string $genero;
     private int $ano;
 
+    /* Método CONSTRUTOR: a finalidade deste método é receber dados (atrvés de parâmetros) no momento da criação do objeto e atribuí-los ás propriedades. Este método NÃO POSSUI retorno. */
+    public function __construct(string $titulo, string $genero, int $ano)
+    {
+        // Atribuindo os valores recebido pelos parâmetros ás propriedades
+        $this->titulo = $titulo;
+        $this->genero = $genero;
+        $this->ano = $ano;
+    }
     // Métodos: comportamentos (funções)
     public function ehClassico(): bool
     {
