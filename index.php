@@ -2,26 +2,11 @@
 // Importanto a classe
 require_once "src/Filme.php";
 
-// Criando um OBJETO ou uma INSTÂNCIA
-$filme1 = new Filme();
+// Criando um OBJETO e passando os dados para o construtor
+$filme1 = new Filme('De Volta para o Futuro', 'Ficção', 1985);
+$filme2 = new Filme('Toy Story', 'Animação', '1995');
+$filme3 = new Filme('Homem Aranha', 'Ação', 2026);
 
-// Atribuir valores ás propriedades do objeto
-$filme1->setTitulo("De volta para o Futuro");
-$filme1->setAno(1984);
-$filme1->setGenero("Ficção Científica");
-
-
-$filme2 = new Filme();
-
-$filme2->setTitulo("Toy Story");
-$filme2->setAno(1995);
-$filme2->setGenero("Animação");
-
-$filme3 = new Filme();
-
-$filme3->setTitulo("O Auto da Compadecida");
-$filme3->setAno(2000);
-$filme3->setGenero("Comédia");
 
 // echo "<pre>";
 // var_dump($filme1, $filme2, $filme3);
