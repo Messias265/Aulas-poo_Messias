@@ -35,7 +35,7 @@ class Conteudo
         return $this->genero;
     }
 
-    public function getAno(): string
+    public function getAno(): int
     {
         return $this->ano;
     }

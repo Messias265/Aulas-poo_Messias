@@ -20,7 +20,10 @@ $serie2 = new Serie('Ben10', 'Ação e Aventura', 2017, 5);
  var_dump($serie1, $serie2);
  echo "</pre>";
 
+$series = [$serie1, $serie2];
+
 $filmes = [$filme1, $filme2, $filme3];
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -56,7 +59,24 @@ $filmes = [$filme1, $filme2, $filme3];
         <?php endforeach; ?>
         </div>
 
-        <hr>
+            <hr>
+
+        <div class="series">
+        <?php foreach($series as $serie): ?>
+
+           <article class="card-serie">
+            <span class="genero"> <?= $serie->getGenero() ?> </span>
+            <h2> <?= $serie->getTitulo() ?> </h2>
+            <p class="ano">Lançamento: <?= $serie->getAno() ?></p>
+
+            <?php if($serie->ehClassico()): ?>
+                <span class="classico">Clássico</span>
+            <?php endif; ?>
+           </article>
+
+        <?php endforeach; ?>
+
+       
 
         <div class="assuntos-estudados">
             <h2>Assuntos estudados</h2>
