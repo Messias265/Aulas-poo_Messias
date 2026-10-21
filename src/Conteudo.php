@@ -19,18 +19,6 @@ class Conteudo
         $this->setAno($ano);
     }
 
-
-    public function __construct(string $titulo, string $genero, int $ano)
-    {
-
-        $this->titulo = $titulo;
-        $this->genero = $genero;
-
-
-
-        $this->setAno($ano);
-    }
-
     public function ehClassico(): bool
     {
         return $this->ano < 2000;
