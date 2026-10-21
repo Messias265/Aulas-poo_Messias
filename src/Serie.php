@@ -40,4 +40,8 @@ class Serie extends Conteudo
         $this->temporada = $temporada;
     }
 
+    public function getDescricao(): string
+    {
+        return "A série $this->titulo possui $this->temporada temporadas.";
+    }
 }

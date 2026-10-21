@@ -4,7 +4,9 @@
 // Conteudo é uma superclasse que compartilha recursos com outras classes (subclasses)
 class Conteudo
 {
-    private string $titulo;
+    /* Visibilidade protected: 
+    fica visível na própria superclasse (pai) em que foi declarada (conteudo) e também para as classes (filha) */
+    protected string $titulo;
     private string $genero;
     private int $ano;
 

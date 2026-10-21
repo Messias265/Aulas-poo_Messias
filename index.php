@@ -15,12 +15,13 @@ $filme3 = new Filme('Homem Aranha', 'Ação', 2026, 145);
 
 $serie1 = new Serie('Minha mãe é uma peça', 'Comedia', 2020, 4 );
 $serie2 = new Serie('Ben10', 'Ação e Aventura', 2017, 5);
+$serie3 = new Serie('Jojo', 'Ação e Aventura', 1999, 6);
 
  echo "<pre>";
- var_dump($serie1, $serie2);
+ var_dump($serie1, $serie2, $serie3);
  echo "</pre>";
 
-$series = [$serie1, $serie2];
+$series = [$serie1, $serie2, $serie3];
 
 $filmes = [$filme1, $filme2, $filme3];
 
@@ -76,6 +77,7 @@ $filmes = [$filme1, $filme2, $filme3];
 
         <?php endforeach; ?>
 
+        <hr>
        
 
         <div class="assuntos-estudados">
