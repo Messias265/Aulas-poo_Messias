@@ -5,6 +5,17 @@ Neste repositório utilizaremos o PHP com **Programação Orientada a Objetos**.
 Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de branches no GitHub. 
 
 ---
+## Branch 04: Herança
+ - Classe-pai (superclasse): Conteudo
+ - Classe-filha (subclasse): Filme e Serie
+ - Herança utilizando extends
+ - Herança com propriedades e métodos
+ - Visibilidade protected na superclasse permitindo o acesso atraés das subclasses.
+ - Construtor da superclasse parent::__construct()
+ - Propriedades específicas das subclasses
+
+
+----
 ## Branch 03: Método Construtor
  - Finalidade do construtor
  - Implementação do método __construct
