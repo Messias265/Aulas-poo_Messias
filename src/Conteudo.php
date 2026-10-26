@@ -1,8 +1,7 @@
 <?php
 // src/Conteudo.php
-
 // Conteudo é uma superclasse que compartilha recursos com outras classes (subclasses)
-class Conteudo
+abstract class Conteudo
 {
     /* Visibilidade protected: 
     fica visível na própria superclasse (pai) em que foi declarada (conteudo) e também para as classes (filha) */
