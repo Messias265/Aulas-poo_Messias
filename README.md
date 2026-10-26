@@ -5,6 +5,15 @@ Neste repositório utilizaremos o PHP com **Programação Orientada a Objetos**.
 Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de branches no GitHub. 
 
 ---
+## Branch 05: Abstratas e Polimorfismo
+ - Classe abstrata: Conteudo
+ - Impossibilidade de instanciar diretamente uma classe abstrata
+ - Método abstrato: getDescricao()
+ - Obriga a Implementação do método abstrato pelas classes filhas Filme e Serie
+ - Polimorfismo: a mesma chamada a getDescricao utiliza a implementação de cada classe
+
+
+----
 ## Branch 04: Herança
  - Classe-pai (superclasse): Conteudo
  - Classe-filha (subclasse): Filme e Serie
