@@ -6,6 +6,7 @@ class NotificadorSMS implements Notificador
 
     public function enviar(string $mensagem): string
     {
+        self::$quantidadeEnviada++;
         return "SMS: $mensagem";
     }
 

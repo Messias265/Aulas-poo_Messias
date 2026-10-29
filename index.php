@@ -16,6 +16,14 @@ $emailPedido2 = $notificadorPorEmail->enviar("Seu pedido 789xyz foi confirmado!"
 // Pedido 456asd
 $emailPedido3 = $notificadorPorEmail->enviar("Seu pedido 456asd foi confirmado!");
 
+/* ************* */
+$notificadorPorEmailTeste2 = new NotificadorEmail();
+$notificadorPorEmailTeste3 = new NotificadorEmail();
+
+$notificadorPorEmailTeste2->enviar("Pedidos entregues!");
+$notificadorPorEmailTeste3->enviar("Pedidos á espera de avaliação");
+
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -40,6 +48,7 @@ $emailPedido3 = $notificadorPorEmail->enviar("Seu pedido 456asd foi confirmado!"
         
             <article class="card-conteudo">
                 <h2>Notificações: Pedido 123abc</h2>
+                <!-- Note abaixo o acesso do método estático ATRAVÉs da classe e com o uso do operador :: (resolução de escopo) -->
                 <p> <?= $emailPedido1 ?></p>
                 <p><?= $smsPedido1 ?></p>
             </article>
@@ -57,10 +66,22 @@ $emailPedido3 = $notificadorPorEmail->enviar("Seu pedido 456asd foi confirmado!"
         </div>
 
         <hr>        
+        
+        <section class="card-conteudo">
+            <h2>Resumo/Total dos envios de notificações</h2>
+            <p>E-mails enviados: <b> <?= NotificadorEmail::getQuantidadeEnviada() ?> </b> </p>
+            <p>SMS enviados: <b> <?= NotificadorSMS::getQuantidadeEnviada() ?> </b></p>
+        </section>
 
     <div class="assuntos-estudados">
         <h2>Assuntos estudados</h2>
-        <ul></ul>
+        <ul>
+            <li>propriedades estáticas usando <b>static</b></li>
+            <li>Métodos estáticos usando <b>static</b></li>
+            <li>Acesso a recursos estáticos com <b>::</b></li>
+            <li>Acesso a recursos estáticos da própria classe usando <b>self</b></li>
+            <li>Diferença entre usar recursos estáticos de classe e recursos de objeto</li>
+        </ul>
     </div>
 
     </div>

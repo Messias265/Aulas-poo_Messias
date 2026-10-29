@@ -5,6 +5,16 @@ Neste repositório utilizaremos o PHP com **Programação Orientada a Objetos**.
 Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de branches no GitHub. 
 
 ---
+## Branch 07: Recursos Estáticos
+ - propriedades estáticas usando static
+ - Métodos estáticos usando static
+ - Acesso a recursos estáticos com ::
+ - Acesso a recursos estáticos da própria classe usando self
+ - Diferença entre usar recursos estáticos de classe e recursos de objeto
+
+
+
+----
 ## Branch 05: Abstratas e Polimorfismo
  - Classe abstrata: Conteudo
  - Impossibilidade de instanciar diretamente uma classe abstrata
