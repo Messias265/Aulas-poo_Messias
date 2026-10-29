@@ -1,9 +1,19 @@
 <?php 
+require_once "src/StatusPedido.php"; // a Enumeração DEVE vir primeiro
+require_once "src/Pedido.php"; // pois a classe Pedido precisa dela
+
 require_once "src/Notificador.php"; 
 require_once "src/NotificadorEmail.php"; 
 
 $notificadorPorEmail = new NotificadorEmail();
 
+/* Repare no terceiro parâmetro: é OBRIGATÓRIO usar uma das opções definidas na Enum. */
+$pedido1 = new Pedido(1001, "Fulano da Silva", StatusPedido::Pendente);
+$pedido2 = new Pedido(1002, "Beltrano Souza", StatusPedido::Pendente);
+$pedido3 = new Pedido(1003, "José da Silva", StatusPedido::AguardandoPagamento);
+$pedido4 = new Pedido (1004, "Mônica Santos", StatusPedido::SaiuParaEntrega);
+
+$pedidos = [$pedido1, $pedido2, $pedido3, $pedido4];
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -20,7 +30,7 @@ $notificadorPorEmail = new NotificadorEmail();
         <header>
             <p class="destaque">Loja Virtual</p>
             <h1>Pedidos da loja virtual</h1>
-            <p>Cada pedido possui um status: Pendentem Aguardando pagamento, Em preparação, Pago ou Saiu para entrega</p>
+            <p>Cada pedido possui um status: Pendente Aguardando pagamento, Em preparação, Pago ou Saiu para entrega</p>
         </header>
 
         <div class="conteudos">        
