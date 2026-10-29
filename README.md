@@ -8,6 +8,7 @@ Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de
 
 
 ## Branch 08: Enumerações
+
  - Enumerações com um conjunto definido de opções usando case
  - Caso associados a valores do tipo string
  - Acessao a um caso com StatusPedido::NomeDoCaso
@@ -18,6 +19,7 @@ Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de
 
 
 ## Branch 07: Recursos Estáticos
+
  - propriedades estáticas usando static
  - Métodos estáticos usando static
  - Acesso a recursos estáticos com ::
@@ -28,8 +30,20 @@ Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de
 
 ---
 
+## Branch 06: Interfaces
+
+ - Interface Notificador como um contrato de comportamentos (métodos)
+ - Definição do método enviar(string $mensagem): string na Interface
+ - Aplicação da interface com implements nas classes NotificadorEmail e NotificadorSMS
+ - Implementação do método enviar em cada classe
+ - Polimorfismo: a mesma chamada a enviar utiliza a implementação de cada classe.
+
+
+---
+
 
 ## Branch 05: Abstratas e Polimorfismo
+
  - Classe abstrata: Conteudo
  - Impossibilidade de instanciar diretamente uma classe abstrata
  - Método abstrato: getDescricao()
@@ -41,6 +55,7 @@ Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de
 
 
 ## Branch 04: Herança
+
  - Classe-pai (superclasse): Conteudo
  - Classe-filha (subclasse): Filme e Serie
  - Herança utilizando extends
@@ -54,6 +69,7 @@ Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de
 
 
 ## Branch 03: Método Construtor
+
  - Finalidade do construtor
  - Implementação do método __construct
  - Parâmetros/argumentos do construtor
@@ -66,6 +82,7 @@ Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de
 
 
 ## Branch 02: Visibilidade e Encapsulamento
+
 - Visibilidade de propriedades: publice private
 - Encapsulamento
 - Métodos Getters para leitura
