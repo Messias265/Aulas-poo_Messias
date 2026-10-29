@@ -1,13 +1,11 @@
 <?php 
-require_once "src/Notificador.php"; // interface (vem primeiro)
-require_once "src/NotificadorEmail.php"; // classe
-require_once "src/NotificadorSMS.php"; // classe
+require_once "src/Notificador.php"; 
+require_once "src/NotificadorEmail.php"; 
+require_once "src/NotificadorSMS.php"; 
 
-// Criando os objetos a partir das classes
 $notificadorPorEmail = new NotificadorEmail();
 $notificadorPorSMS = new NotificadorSMS();
 
-$notificadores = [$notificadorPorEmail, $notificadorPorSMS];
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -29,15 +27,10 @@ $notificadores = [$notificadorPorEmail, $notificadorPorSMS];
 
         <div class="conteudos">        
         
-        <?php 
-            $conteudoDaMensagem = "Seu pedido '123abc' foi confirmado!";
-            foreach($notificadores as $notificador): 
-        ?>
+        
             <article class="card-conteudo">
-                <h2>Notificação sobre o pedido:</h2>
-                <p> <?= $notificador->enviar($conteudoDaMensagem) ?> </p>
+                
             </article>
-        <?php endforeach; ?>
 
         </div>
 
@@ -45,9 +38,7 @@ $notificadores = [$notificadorPorEmail, $notificadorPorSMS];
 
     <div class="assuntos-estudados">
         <h2>Assuntos estudados</h2>
-        <ul>
-         
-        </ul>
+        <ul></ul>
     </div>
 
     </div>
