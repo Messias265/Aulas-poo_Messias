@@ -4,7 +4,6 @@ require_once "src/NotificadorEmail.php";
 
 $notificadorPorEmail = new NotificadorEmail();
 
-
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
