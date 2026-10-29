@@ -5,6 +5,14 @@ Neste repositório utilizaremos o PHP com **Programação Orientada a Objetos**.
 Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de branches no GitHub. 
 
 ---
+## Branch 08: Enumerações
+ - Enumerações com um conjunto definido de opções usando case
+ - Caso associados a valores do tipo string
+ - Acessao a um caso com StatusPedido::NomeDoCaso
+ - Acesso ao valor/texto do caso com value
+
+
+----
 ## Branch 07: Recursos Estáticos
  - propriedades estáticas usando static
  - Métodos estáticos usando static
