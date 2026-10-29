@@ -5,6 +5,8 @@ Neste repositório utilizaremos o PHP com **Programação Orientada a Objetos**.
 Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de branches no GitHub. 
 
 ---
+
+
 ## Branch 08: Enumerações
  - Enumerações com um conjunto definido de opções usando case
  - Caso associados a valores do tipo string
@@ -13,6 +15,8 @@ Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de
 
 
 ---
+
+
 ## Branch 07: Recursos Estáticos
  - propriedades estáticas usando static
  - Métodos estáticos usando static
@@ -23,6 +27,8 @@ Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de
 
 
 ---
+
+
 ## Branch 05: Abstratas e Polimorfismo
  - Classe abstrata: Conteudo
  - Impossibilidade de instanciar diretamente uma classe abstrata
@@ -32,6 +38,8 @@ Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de
 
 
 ---
+
+
 ## Branch 04: Herança
  - Classe-pai (superclasse): Conteudo
  - Classe-filha (subclasse): Filme e Serie
@@ -43,6 +51,8 @@ Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de
 
 
 ---
+
+
 ## Branch 03: Método Construtor
  - Finalidade do construtor
  - Implementação do método __construct
@@ -53,6 +63,8 @@ Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de
 
 
 ---
+
+
 ## Branch 02: Visibilidade e Encapsulamento
 - Visibilidade de propriedades: publice private
 - Encapsulamento
@@ -60,6 +72,7 @@ Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de
 - Métodos Setters para escrita
 
 ---
+
 
 ## Branch 01: Classes, Objetos, Propriedades e Métodos
 
