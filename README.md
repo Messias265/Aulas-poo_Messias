@@ -12,7 +12,7 @@ Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de
  - Acesso ao valor/texto do caso com value
 
 
-----
+---
 ## Branch 07: Recursos Estáticos
  - propriedades estáticas usando static
  - Métodos estáticos usando static
@@ -22,7 +22,7 @@ Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de
 
 
 
-----
+---
 ## Branch 05: Abstratas e Polimorfismo
  - Classe abstrata: Conteudo
  - Impossibilidade de instanciar diretamente uma classe abstrata
@@ -31,7 +31,7 @@ Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de
  - Polimorfismo: a mesma chamada a getDescricao utiliza a implementação de cada classe
 
 
-----
+---
 ## Branch 04: Herança
  - Classe-pai (superclasse): Conteudo
  - Classe-filha (subclasse): Filme e Serie
@@ -42,7 +42,7 @@ Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de
  - Propriedades específicas das subclasses
 
 
-----
+---
 ## Branch 03: Método Construtor
  - Finalidade do construtor
  - Implementação do método __construct
@@ -52,14 +52,14 @@ Os assuntos e exemplos estão divididos por `branches`, acessíveis pelo menu de
  - Uso de setter a partir do construtor
 
 
-----
+---
 ## Branch 02: Visibilidade e Encapsulamento
 - Visibilidade de propriedades: publice private
 - Encapsulamento
 - Métodos Getters para leitura
 - Métodos Setters para escrita
 
-----
+---
 
 ## Branch 01: Classes, Objetos, Propriedades e Métodos
 
