@@ -73,7 +73,17 @@ var_dump($relatorioPedido1, $relatorioPedido2);
 
     <div class="assuntos-estudados">
         <h2>Assuntos estudados</h2>
-        <ul></ul>
+        <ul>
+            <li>Reorganização dos arquivos em pastas dentro de <b>src</b></li>
+            <li>Declaração do namespace e do subnamespace em cada arquivo</li>
+            <li>Utilização do nome completo de um recurso: <b>App/Pedidos/pedido</b></li>
+            <li>Importação do namespace com <b>use</b> para utilizar nomes simples</li>
+            <li>Criação de apelidos com <b>as</b> para solucionar conflitos de nomes</li>
+            <li>lembrete:
+                <b>use</b> importa namespaces;
+                <b>require_once</b> carrega arquivos
+            </li>
+        </ul>
     </div>
 
     </div>
