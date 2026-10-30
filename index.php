@@ -8,7 +8,7 @@ require_once "src/Notificacoes/NotificadorEmail.php";
 // Veja que nessa primeira forma, precisamos passar o nome completo da classe
 $notificadorPorEmail = new App\Notificacoes\NotificadorEmail();
 var_dump($notificadorPorEmail);
-die();
+
 
 /* Repare no terceiro parâmetro: é OBRIGATÓRIO usar uma das opções definidas na Enum. */
 $pedido1 = new Pedido(1001, "Fulano da Silva", StatusPedido::Pendente);
