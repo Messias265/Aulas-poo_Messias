@@ -3,8 +3,8 @@
 use App\Pedidos\Pedido;
 
 use App\Pedidos\StatusPedido;
+use App\Saudacao;
 
-// Repare que aqui definimos um apelido (as) para solucionar o conflito de nomes de classe
 use App\Relatorios\Pedido as RelatorioPedido;
 
 /* Substituimos TODOS os requires manuais de cada arquivo (classe, interface, enum)
@@ -27,9 +27,12 @@ $pedido3->setStatus(StatusPedido::Pago);
 $pedidos = [$pedido1, $pedido2, $pedido3, $pedido4];
 
 // Criando um objeto a partir da classe Pedido do subnamespace Relatorios
-$relatorioPedido1 = new RelatorioPedido(); // repare que usamos o apelido em vez do nome real
+$relatorioPedido1 = new RelatorioPedido(); 
+
+$saudacao = new Saudacao();
+
 $relatorioPedido2 = new App\Relatorios\Pedido();
-var_dump($relatorioPedido1, $relatorioPedido2);
+//var_dump($relatorioPedido1, $relatorioPedido2);
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -47,6 +50,7 @@ var_dump($relatorioPedido1, $relatorioPedido2);
             <p class="destaque">Loja Virtual</p>
             <h1>Pedidos da loja virtual</h1>
             <p>Cada pedido possui um status: Pendente Aguardando pagamento, Em preparação, Pago ou Saiu para entrega</p>
+            <p>Testando a saudação: <?=  $saudacao->cumprimentar() ?></p>
         </header>
 
         <div class="conteudos">        
