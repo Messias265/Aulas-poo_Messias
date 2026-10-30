@@ -1,4 +1,5 @@
 <?php
+namespace App\Pedidos;
 
 /* Cada case representa um status permitindo e
  possui um valor/texto associado, que você pode escrever
