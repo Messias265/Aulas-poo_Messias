@@ -31,6 +31,7 @@ $pedidos = [$pedido1, $pedido2, $pedido3, $pedido4];
 // Criando um objeto a partir da classe Pedido do subnamespace Relatorios
 $relatorioPedido1 = new RelatorioPedido(); // repare que usamos o apelido em vez do nome real
 $relatorioPedido2 = new App\Relatorios\Pedido();
+var_dump($relatorioPedido1, $relatorioPedido2);
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
